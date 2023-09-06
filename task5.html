@@ -14,7 +14,7 @@
             input[type="text"],
         input[type="password"],
         input[type="email"],
-        input[type="number"]{
+        input[type="number"],#ta{
                 width: 100%;
             }
 
@@ -65,11 +65,11 @@
 
         <tr>
             <td rowspan="2">Gender</td>
-            <td><input type="radio">Male</td>
+            <td><input type="radio" name="Gender">Male</td>
         </tr>
         
         <tr>
-            <td><input type="radio">Female</td>
+            <td><input type="radio" name="Gender">Female</td>
         </tr>
 
 
@@ -85,7 +85,7 @@
 
         <tr>
             <td>Address :</td>
-            <td><textarea></textarea></td>
+            <td><textarea id="ta"></textarea></td>
         </tr> 
 
         <tr>
@@ -123,5 +123,18 @@
     </table>
     </form>
     <button>Register</button>
+
+
+
+    <form>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+          <label for="javascript">JavaScript</label>
+        </form> 
+        
+        
 </body>
 </html>
